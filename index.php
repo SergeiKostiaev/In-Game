@@ -1,13 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <link rel="stylesheet" href="css/style.css">
-    <title>Lift-constructor</title>
-</head>
+<?php
+get_header();
+?>
 <body>
     <section class="construct_box">
         <div class="construct_wrapp">
@@ -21,17 +14,17 @@
                         <ul class="tabs__caption content">
                           <li class="link active">
                             Стены
-                            <img src="./images/icon/ellipse1.svg" alt="ellipse1">
+                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/icon/ellipse1.svg" alt="ellipse1">
                           </li>
                             
                           <li class="link content">
                             Потолок
-                            <img src="./images/icon/ellipse1.svg" alt="ellipse1">
+                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/icon/ellipse1.svg" alt="ellipse1">
                           </li>
                             
                           <li class="link content">
                             Готовая модель
-                            <img src="./images/icon/ellipse1.svg" alt="ellipse1">
+                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/icon/ellipse1.svg" alt="ellipse1">
                           </li>
                         </ul>
                         <div class="construct_content">
@@ -40,15 +33,15 @@
                                     <h4>Выберите отделку стен</h4>
                                     <div class="construct_first_box">
                                         <div class="picture">
-                                            <img class="lift" src="./images/лифт.png" alt="lift">
+                                            <img class="lift" src="<?php echo esc_url(get_template_directory_uri()); ?>/images/лифт.png" alt="lift">
                                             <div class="left_small_box">
                                                 <div class="view1">
                                                     <p>Вид <br> спереди</p>
-                                                    <img src="images/icon/cubeLift2.svg" alt="cubeLift2">
+                                                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>images/icon/cubeLift2.svg" alt="cubeLift2">
                                                 </div>
                                                 <div class="view2">
                                                     <p>Вид <br>сбоку</p>
-                                                    <img src="images/icon/cubeLift.svg" alt="cubeLift">
+                                                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>images/icon/cubeLift.svg" alt="cubeLift">
                                                 </div>
                                             </div>
                                         </div>
@@ -86,34 +79,34 @@
                                     <h4>Выберите отделку потолка</h4>
                                     <div class="construct_first_box">
                                         <div class="picture">
-                                            <img class="lift" src="./images/лифт.png" alt="lift">
+                                            <img class="lift" src="<?php echo esc_url(get_template_directory_uri()); ?>/images/лифт.png" alt="lift">
                                             <div class="left_small_box">
                                                 <div class="view1">
                                                     <p>Вид <br> спереди</p>
-                                                    <img src="images/icon/cubeLift2.svg" alt="cubeLift2">
+                                                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>images/icon/cubeLift2.svg" alt="cubeLift2">
                                                 </div>
                                                 <div class="view2">
                                                     <p>Вид <br>сбоку</p>
-                                                    <img src="images/icon/cubeLift.svg" alt="cubeLift">
+                                                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>images/icon/cubeLift.svg" alt="cubeLift">
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="about">
                                             <div class="about_wrap">
                                                 <div class="about_wrap_item">
-                                                    <img src="images/podves.png" alt="podves" aria-required="false">
+                                                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>images/podves.png" alt="podves" aria-required="false">
                                                     <h4>Центральная панель</h4>
                                                 </div>
                                                 <div class="about_wrap_item">
-                                                    <img src="images/podves.png" alt="podves" aria-required="false">
+                                                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>images/podves.png" alt="podves" aria-required="false">
                                                     <h4>Подвес для ПСБ</h4>
                                                 </div>
                                                 <div class="about_wrap_item">
-                                                    <img src="images/podves.png" alt="podves" aria-required="false">
+                                                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>images/podves.png" alt="podves" aria-required="false">
                                                     <h4>Потолок подвесной</h4>
                                                 </div>
                                                 <div class="about_wrap_item">
-                                                    <img src="images/podves.png" alt="podves" aria-required="false">
+                                                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>images/podves.png" alt="podves" aria-required="false">
                                                     <h4>Потолок подвесной</h4>
                                                 </div>
                                             </div>
@@ -133,15 +126,15 @@
                                     <h4>Посмотритие, как будет выглядеть ваш лифт</h4>
                                     <div class="construct_first_box">
                                         <div class="picture">
-                                            <img class="lift" src="./images/лифт.png" alt="lift">
+                                            <img class="lift" src="<?php echo esc_url(get_template_directory_uri()); ?>/images/лифт.png" alt="lift">
                                             <div class="left_small_box">
                                                 <div class="view1">
                                                     <p>Вид <br> спереди</p>
-                                                    <img src="images/icon/cubeLift2.svg" alt="cubeLift2">
+                                                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>images/icon/cubeLift2.svg" alt="cubeLift2">
                                                 </div>
                                                 <div class="view2">
                                                     <p>Вид <br>сбоку</p>
-                                                    <img src="images/icon/cubeLift.svg" alt="cubeLift">
+                                                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>images/icon/cubeLift.svg" alt="cubeLift">
                                                 </div>
                                             </div>
                                         </div>
@@ -153,7 +146,7 @@
                                                     <h4>Серый</h4>
                                                 </div>
                                                 <div class="about_wrap_item">
-                                                    <img src="images/podves.png" alt="podves" aria-required="false">
+                                                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>images/podves.png" alt="podves" aria-required="false">
                                                     <h4>Центральная панель</h4>
                                                 </div>
                                                 <div class="price_wall">
@@ -161,7 +154,7 @@
                                                     <h2>1 100 000 руб.</h2>
                                                     <div class="price_btn">
                                                         <button type="button" id="backBtn">Назад</button>
-                                                        <button type="button" id="nextBtn">Далее</button>
+                                                        <button type="button" id="totalBtn">Оформить</button>
                                                     </div>
                                                 </div>
                                             </div>
@@ -176,10 +169,8 @@
             </div>
         </div>
     </section>
+<?php
+    get_footer();
+?>
 
-
-    
-    <script src="js/scripts.js"></script>
-    <script src="js/app.js"></script>
-</body>
-</html>
+  
